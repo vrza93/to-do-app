@@ -114,3 +114,23 @@ ul li span {
 ul li span:hover {
   background: #edeef0;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+  }
+  button {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background: #ff5945;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    overflow: hidden;
+    text-align: center;
+  }
+}
